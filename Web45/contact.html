@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light navbar-expand-lg">
+        <a href="#" class="navbar-brand">
+            <img src="http://www.greetlabs.com/images/logo.png" alt="">
+        </a>
+        <div class="ml-auto">
+            <ol class="navbar-nav">
+                <li><a href="./index.html" class="nav-link">Home</a></li>
+                <li><a href="./service.html" class="nav-link">Services</a></li>
+                <li><a href="./contact.html" class="nav-link">Contact</a></li>
+            </ol>
+        </div>
+    </nav>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Contact</li>
+        </ol>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-6">
+                <!-- form -->
+                <form >
+                    <div class="row">
+                        <div class="col-4">
+                                <div class="form-group">
+                                    <label>Name</label>
+                                    <input type="text" class="form-control" />
+                                </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="form-group">
+                                <label>Email Id</label>
+                                <input type="text" class="form-control" />
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="form-group">
+                                <label>Mobile No:</label>
+                                <input type="text" class="form-control" />
+                            </div>
+                        </div>
+                    </div>
+                   <div class="row">
+                    <div class="col-8">
+                        <div class="form-group">
+                            <label >Subject</label>
+                            <input type="text" class="form-control"/>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="form-group">
+                            <label for="">Services</label>
+                                <select class="form-control">
+                                    <option >Please Select</option>
+                                    <option >Web Dev</option>
+                                    <option >Mobile</option>
+                                    <option >Hybird</option>
+                                </select>
+                        </div>
+                    </div>
+                   </div>
+                  <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label >Message</label>
+                            <textarea class="form-control"  cols="30" rows="4"></textarea>
+                        </div>
+                    </div>
+                  </div>
+                 <button class="btn btn-warning">Submit</button>
+                </form>
+            </div>
+            <div class="col-6">
+                <!-- map -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31105.16849224942!2d77.701015!3d12.962504!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae10d5b2786a23%3A0xb08461de6796aef8!2sGreet%20Labs%20Private%20Limited!5e0!3m2!1sen!2sus!4v1698472769900!5m2!1sen!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
